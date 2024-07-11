@@ -42,7 +42,7 @@ export const users = [
   },
   {
     name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
+    designation: "Founder, Sarahs Kitchen",
     image: "https://picsum.photos/id/11/300/300",
     badge: "Mentor",
   },

@@ -55,10 +55,11 @@ export const HeroParallax = ({
     useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
     springConfig
   );
+
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective-1000px transform-style-preserve-3d"
     >
       <Header />
       <motion.div
@@ -70,6 +71,7 @@ export const HeroParallax = ({
         }}
         className=""
       >
+        {/* First row of products */}
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
           {firstRow.map((product) => (
             <ProductCard
@@ -79,7 +81,8 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        {/* Second row of products */}
+        <motion.div className="flex flex-row mb-20 space-x-20">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -88,6 +91,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
+        {/* Third row of products */}
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
           {thirdRow.map((product) => (
             <ProductCard
@@ -104,12 +108,14 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="  max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 font-serif">
-      <h1 className=" text-2xl md:text-7xl font-bold dark:text-white">
-        Cartoonpanti <br /> Apparels catalouges
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0 font-serif">
+      {/* Main heading */}
+      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+        Cartoonpanti <br /> Apparels catalogues
       </h1>
+      {/* Description */}
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      Discover Cartoonpanti, India s coolest casual wear brand, offering trendy t-shirts, shirts, and more at affordable prices with free shipping. Shop now!
+        Discover Cartoonpanti, India&apos;s coolest casual wear brand, offering trendy t-shirts, shirts, and more at affordable prices with free shipping. Shop now!
       </p>
     </div>
   );
@@ -138,15 +144,12 @@ export const ProductCard = ({
       key={product.title}
       className="group product h-96 w-[30rem] sm:w-[25rem] md:w-[30rem] relative flex-shrink-0"
     >
-      <Link
-        href={product.link}
-        className="block group-hover/product:shadow-2xl "
-      >
+      <Link href={product.link} className="block group-hover/product:shadow-2xl">
         <Image
           src={product.src}
           height="600"
           width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0  "
+          className="object-cover object-left-top absolute h-full w-full inset-0"
           alt={product.title}
           style={{ borderRadius: '10px' }}
         />

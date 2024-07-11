@@ -106,94 +106,47 @@ const testimonials = [
     name: "Carrie Bradshaw 💼",
     title: "Closet Confidential: A Love Affair with Fashion",
   },
-  {
-    quote:
-      "Fashion is the armor to survive the reality of everyday life 🛡️.",
-    name: "Bill Cunningham 📸",
-    title: "Armor of Style: Fashion for Everyday Warriors",
-  },
-  {
-    quote:
-      "I don't do fashion. I am fashion 👗.",
-    name: "Coco Chanel 🌟",
-    title: "Fashion Manifesto: Defining Style",
-  },
-  {
-    quote:
-      "Fashion fades, only style remains the same 💫.",
-    name: "Coco Chanel 💄",
-    title: "Eternal Style: Timeless Fashion",
-  },
+  
+   
   {
     quote:
       "The difference between style and fashion is quality 👜.",
     name: "Giorgio Armani 👑",
     title: "Quality Over Quantity: The Essence of Style",
   },
-  {
-    quote:
-      "Elegance is elimination 🌹.",
-    name: "Cristóbal Balenciaga 👠",
-    title: "Elegant Simplicity: Mastering the Art of Fashion",
-  },
-  {
-    quote:
-      "Fashion should be a form of escapism, and not a form of imprisonment 🚀.",
-    name: "Alexander McQueen 🌈",
-    title: "Escaping Through Fashion: Freedom in Style",
-  },
-  {
-    quote:
-      "A woman is never sexier than when she is comfortable in her clothes 👑.",
-    name: "Vera Wang 💍",
-    title: "Comfortable Elegance: Embracing Inner Beauty",
-  },
+   
+   
+  
   {
     quote:
       "In difficult times, fashion is always outrageous 🌟.",
-    name: "Elsa Schiaparelli 💥",
+    name: "ARJUN KAPOOR 💥",
     title: "Outrageous Fashion: Breaking Norms",
   },
   {
     quote:
       "Fashion is about suspense, surprise and fantasy ✨. It's not about rules.",
-    name: "Wolfgang Joop 🎩",
+    name: "ved kaushal 🎩",
     title: "Fantasy in Fashion: Creating Magic",
   },
   {
     quote:
       "Fashion is the most powerful art 🎭 there is. It's movement, design and architecture all in one. It shows the world who we are and who we'd like to be.",
-    name: "Blair Waldorf 💃",
+    name: "Alia Mukul Kaushal 💃",
     title: "The Power of Fashion: Art in Motion",
   },
   {
     quote:
       "I like my money right where I can see it: hanging in my closet 👗.",
-    name: "Carrie Bradshaw 💼",
+    name: "Sonam kaushal 💼",
     title: "Closet Confidential: A Love Affair with Fashion",
   },
-  {
-    quote:
-      "Fashion is the armor to survive the reality of everyday life 🛡️.",
-    name: "Bill Cunningham 📸",
-    title: "Armor of Style: Fashion for Everyday Warriors",
-  },
-  {
-    quote:
-      "I don't do fashion. I am fashion 👗.",
-    name: "Coco Chanel 🌟",
-    title: "Fashion Manifesto: Defining Style",
-  },
-  {
-    quote:
-      "Fashion fades, only style remains the same 💫.",
-    name: "Coco Chanel 💄",
-    title: "Eternal Style: Timeless Fashion",
-  },
+   
+   
   {
     quote:
       "The difference between style and fashion is quality 👜.",
-    name: "Giorgio Armani 👑",
+    name: "Tara kaushal sutaria 👑",
     title: "Quality Over Quantity: The Essence of Style",
   },
   {

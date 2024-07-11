@@ -115,7 +115,7 @@ export const Header = () => {
       </h1>
       {/* Description */}
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        { "Discover Cartoonpanti, India&apos;s coolest casual wear brand, offering trendy t-shirts, shirts, and more at affordable prices with free shipping. Shop now!"}
+        { "Discover Cartoonpanti, Our country coolest casual wear brand, offering trendy t-shirts, shirts, and more at affordable prices with free shipping. Shop now!"}
       </p>
     </div>
   );

@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fashion 💃, Or to take Arms against a Sea of trends 🌊, And by opposing end them: to dress, to shop.",
+      "To be, or not to be, that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fashion 💃, Or to take Arms against a Sea of trends 🌊, And by opposing end them: to dress, to shop.",
     name: "William Shakespeare 🎭",
     title: "Hamlet: A Fashion Dilemma",
   },
@@ -66,7 +66,7 @@ const testimonials = [
   },
   {
     quote:
-      "I don't do fashion. I am fashion 👗.",
+      "I dont do fashion. I am fashion 👗.",
     name: "Coco Chanel 🌟",
     title: "Fashion Manifesto: Defining Style",
   },
@@ -90,13 +90,13 @@ const testimonials = [
   },
   {
     quote:
-      "Fashion is about suspense, surprise and fantasy ✨. It's not about rules.",
+      "Fashion is about suspense, surprise and fantasy ✨. Its not about rules.",
     name: "Wolfgang Joop 🎩",
     title: "Fantasy in Fashion: Creating Magic",
   },
   {
     quote:
-      "Fashion is the most powerful art 🎭 there is. It's movement, design and architecture all in one. It shows the world who we are and who we'd like to be.",
+      "Fashion is the most powerful art 🎭 there is. Its movement, design and architecture all in one. It shows the world who we are and who wed like to be.",
     name: "Blair Waldorf 💃",
     title: "The Power of Fashion: Art in Motion",
   },
@@ -125,13 +125,13 @@ const testimonials = [
   },
   {
     quote:
-      "Fashion is about suspense, surprise and fantasy ✨. It's not about rules.",
+      "Fashion is about suspense, surprise and fantasy ✨. Its not about rules.",
     name: "ved kaushal 🎩",
     title: "Fantasy in Fashion: Creating Magic",
   },
   {
     quote:
-      "Fashion is the most powerful art 🎭 there is. It's movement, design and architecture all in one. It shows the world who we are and who we'd like to be.",
+      "Fashion is the most powerful art 🎭 there is. Its movement, design and architecture all in one. It shows the world who we are and who wed like to be.",
     name: "Alia Mukul Kaushal 💃",
     title: "The Power of Fashion: Art in Motion",
   },

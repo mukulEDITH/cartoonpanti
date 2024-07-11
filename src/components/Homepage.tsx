@@ -1,8 +1,8 @@
-'use client'
-import React from 'react'
-import { HeroParallaxDemo , products} from '@/components/HeroParallaxDemo';
-import { InfiniteMovingCardsDemo } from '@/components/InfiniteMovingCardsDemo';
-import { HeroScrollDemo } from './HeroScrollDemo';
+"use client"
+import React from "react"
+import { HeroParallaxDemo , products} from "@/components/HeroParallaxDemo";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { HeroScrollDemo } from "./HeroScrollDemo";
  
 function Homepage() {
   return (
@@ -11,7 +11,7 @@ function Homepage() {
       <HeroParallaxDemo/>
       <HeroScrollDemo/>
       <InfiniteMovingCardsDemo/>
-      <p className='text-center text-sm' >Copyright @mukulEDITH</p>
+      <p className="text-center text-sm ">Copyright @mukulEDITH</p>
       
     </div>
   )

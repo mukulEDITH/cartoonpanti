@@ -6,9 +6,12 @@ import React, { useEffect, useState } from 'react';
 import '/public/assets/both.png'
 
 const LoaderAnimation = () => (
-  <div className="flex justify-center items-center h-screen square-full h-240 w-240 bg-gray-200 ">
+  <div className="flex justify-center items-center  ">
+      
+    <img src="/assets/c logo.png" alt="Loading animation" className=" flex justify-center items-center  h-100 w-100 bg-gray-200" 
+    style={{ marginTop: '195px' }}
 
-    <img src="/assets/c logo.png" alt="Loading animation" className="w-1/2" />
+    />
   </div>
 );
 

@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { HeroParallaxDemo , products} from "@/components/HeroParallaxDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { HeroScrollDemo } from "./HeroScrollDemo";
-import { WobbleCardDemo } from "./WobbleCardDemo";
 import LoaderAnimation from '@/components/LoaderAnimation'
 
 const Homepage: React.FC = () => {
@@ -26,7 +25,6 @@ const Homepage: React.FC = () => {
   return (
     <div>
       <HeroParallaxDemo />
-      <WobbleCardDemo />
       <HeroScrollDemo />
       <InfiniteMovingCardsDemo />
       <p className="text-center text-sm">Copyright @mukulEDITH</p>

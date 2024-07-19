@@ -13,7 +13,7 @@ const Homepage: React.FC = () => {
     
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 700);
 
     return () => clearTimeout(timeout);
   }, []);

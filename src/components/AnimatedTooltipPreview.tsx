@@ -19,13 +19,13 @@ export const people = [
     src:
       "/assets/perry.png",
   },
-  {
-    id: 3,
-    name: "Mukul Kaushal",
-    designation: "Person who support them also a FSD",
-    src:
-      "/assets/ME2.png",
-  },
+  // {
+  //   id: 3,
+  //   name: "Mukul Kaushal",
+  //   designation: "Person who support them also a FSD",
+  //   src:
+  //     "/assets/ME2.png",
+  // },
   // {
   //   id: 4,
   //   name: "Emily Davis",

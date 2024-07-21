@@ -5,6 +5,7 @@ import { HeroParallaxDemo , products} from "@/components/HeroParallaxDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { HeroScrollDemo } from "./HeroScrollDemo";
 import LoaderAnimation from '@/components/LoaderAnimation'
+import { AnimatedTooltipPreview } from '@/components/AnimatedTooltipPreview';
 
 const Homepage: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ const Homepage: React.FC = () => {
   return (
     <div>
       <HeroParallaxDemo />
+      <AnimatedTooltipPreview/>
       <HeroScrollDemo />
       <InfiniteMovingCardsDemo />
       <p className="text-center text-sm">Copyright @mukulEDITH</p>
